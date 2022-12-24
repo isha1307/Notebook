@@ -1,0 +1,17 @@
+CDN
+
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. Today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon. CDN are the transparent backbone of the Internet in charge of content delivery. Whether we know it or not, every one of us interacts with CDNs on a daily basis; when reading articles on news sites, shopping online, watching YouTube videos or perusing social media feeds. 
+
+why CDN are widely used?
+To understand this, you must first understnd the issue they widely solve.
+Known as latency, it’s the annoying delay that occurs from the moment you request to load a web page to the moment its content actually appears onscreen.That delay interval is affected by a number of factors, many being specific to a given web page. In all cases however, the delay duration is impacted by the physical distance between you and that website’s hosting server. 
+ Imagine those extra milliseconds getting added up over hundreds of resources that load on your website, and you end up with a slow page load time.
+A CDN’s mission is to virtually shorten that physical distance, the goal being to improve site rendering speed and performance.
+
+Today, over half of all traffic is already being served by CDNs. Those numbers are rapidly trending upward with every passing year.
+
+benefits of using CDN
+1. improves websites load times
+2. Increasing content availability and redundancy - Large amounts of traffic or hardware failures can interrupt normal website function. Thanks to their distributed nature, a CDN can handle more traffic and withstand hardware failure better than many origin servers.
+3. improves website security
+

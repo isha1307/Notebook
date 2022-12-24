@@ -1,0 +1,21 @@
+Async and defer are boolean attributes which are used alongwith script tags to load the external scripts efficiently in our webpage.
+
+when we load a webpage, there are two things happening: one is HTML parsing and the other is loading of scripts. Loading of scripts contains two parts: one is fetching the scripts from the network and the second is actually executing the scripts line by line.
+
+case 1: without using defer and async
+Suppose browser is parsing the HTML line by line and suddenly encounters the script tag. The browser will stop or pause its parsing as soon as it reaches script tag. It sees the script tag and fetches the scripts from the network and gets into the browser and runs it there. after the scripts are fetched from the network and fully executed in the browser, then only the paused HTML parsing will continue parsing again. This means when the Browser is fetching the scripts and then executing them, HTML parsing is paused for that duration. Actually the JS is pausing the rendering of the document.
+
+case 2:with async
+Meanwhile the HTML parsing is going on, our script tag with async attribute will be fetched from the network asynchronously alongwith HTML parsing. As soon as the scripts are fetched and are available in the network, the HTML parsing stops and the scripts are executed then. Once the scripts are executed the HTML parsing continues like regular.
+
+case 3: with defer
+Html parsing goes on and the scripts are fetched in parallel and the HTML parsing continues to go on. These scripts are only executed once the HTML parsing is fully completed. It does not matter when the scripts are available to browser for execution. It will only start its execution once the HTML parsing is complete
+
+WHEN SHOULD I USE WHAT??
+Async attribute does not guarantee you the order of execution of scripts but defer does.
+suppose you are using your async attribute in a program that has multiple scripts that are dependent on each other(scripts are dependent on each other), then using the async attribute does not guarantee that these scripts will be executed in that particular order. That may break our code. So in that case you should use defer.
+
+suppose you have to load external scripts(which is independent of our normal code). so in that case it make sense to use our async attribute not defer.
+Otherwise its mostly wise to use defer bcoz defer attribute maintains the order of execution of scripts and it is best of all cases.
+  
+
