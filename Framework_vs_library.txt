@@ -1,0 +1,26 @@
+Framework vs Library
+
+JS frameworks and JS libraries are both pieces of code authored by others to solve everyday problems.
+
+
+1. A JavaScript framework is a set of JavaScript code libraries that provide pre-written code for everyday programming tasks to a web developer.
+Frameworks have a specific context and aid in creating web applications within that context.
+2. JS framework acts as a framework for developers to construct apps for specific platforms.It comprises of lot of APIs , compilers , support programs , libraries etc.
+3. It is difficult to replace frameworks.
+4. A framework development requires a lot of code that decrease performance and increase the load time.
+5. Including framework smoothly into an existing project is impossible.
+6. Its example are AngularJS , Spring , NodeJS , etc
+
+
+
+1. A JS library is a piece of reusable code with a single primary use case. A JavaScript library can have multiple functions/objects/methods depending on the language. 
+2. JS libraries give developers predefined methods and classes to help them work faster and more efficiently.It is a collection of helper modules , classes , objects , functions , pre-written code , etc.
+3. A library is easy to be replaced with another library.
+4. Building a library requires less code , so there is better performance and fast load time.
+5. Libraries can be integrated easily into existing projects to add some specific functionality.
+6. Its example are JQuery , React JS , etc. 
+
+
+
+"The main advantage of using a Library over a Framework is that Libraries are lightweight, and there is a freedom to choose different tools. The Framework consists of an entire ecosystem to build an application, and you don't have an easy way to use any other tools outside the Framework."
+

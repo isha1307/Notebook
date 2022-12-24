@@ -1,0 +1,7 @@
+ react.development.js vs react.production.js files via CDN
+
+Both files have similar codes. Code difference is nothing here.
+
+react.development.js files is meant for development purpose.These are not suitable for production. Use this only when you are using for your local use.
+
+react.production.js files are minified versions. these are much more optimised for production use. Size of these files is very less than that of development files. For production uses, always use them.

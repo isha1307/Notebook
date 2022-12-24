@@ -1,0 +1,8 @@
+React is a JavaScript library for building User Interfaces. You use React to define and create your elements.
+
+ReactDOM, as the name implies, is the glue between React and the DOM. For everything else, there’s React. ReactDOM is the JavaScript library that allows React to interact with the DOM.
+
+So, in brief:
+
+React: a javascript library, designed for building user interfaces
+React-DOM: a complimentary library to React which glues React to the browser DOM

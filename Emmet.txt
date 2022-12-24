@@ -1,0 +1,15 @@
+EMMET
+
+Emmet is a web developer's toolkit for boosting HTML and CSS code writing. Using this you can type abbreviations and convert them into code fragment with a single keystroke. Abbrievation syntax is similar to CSS Selectors. Emmet snippets are built-in into Visual studio code, no extension rqd. When you start typing an Emmet abbreviation, you will see the abbreviation displayed in the suggestion list. It allows you to type shortcuts that are then expanded into full pieces of code.  By using Emmet, developers type less, they save both on keystrokes and time.
+with Emmet you an quickly create HTML boilerplate: just write "html:5" and hit enter.
+to create html tags just type tag name and hit enter
+bg for <blockquote>, ftr for <footer>, hdr for <header> btn for <button> etc.
+div.name -->  <div class="name"></div>
+div#name --> <div id="name"></div>
+div.hero#name -->  <div class="hero" id="name"></div>
+and many more cases....
+
+
+With Emmet, you can create a really complex HTML structure with one line. It’s really awesome. And, it also works with CSS.
+
+
