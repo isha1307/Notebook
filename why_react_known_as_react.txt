@@ -1,0 +1,5 @@
+why is react known as react?
+
+bcoz it reacts to changes in states and props and it react to specific part of DOM only. It does not refreshes entire DOM after changing anything. It only reacts/ refreshes that part only.
+react is very flexible.
+react makes it painless to craete intercative UIs. Design simple views fr each state in your application, and react will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and earlier to debug.
